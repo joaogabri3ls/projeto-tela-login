@@ -30,9 +30,13 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
+    display: block;
     background: #012533 url(../imagens/predios.jpg) no-repeat;
     height: 200px;
     background-size: cover;
@@ -40,5 +44,6 @@ section#login > div#imagem {
 }
 
 section#login > div#formulario {
-    padding: 10px;
+    display: block;
+padding: 10px;
 }
