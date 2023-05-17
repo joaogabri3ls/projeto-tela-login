@@ -4,6 +4,8 @@
     
     section#login {
         width: 80vw;
+        height: 400px;
+
     }
 
     section#login > div#imagem {
@@ -16,11 +18,26 @@
         float: right;
         width: 65%;
     }
+
+    div.campo {
+        padding-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 1em;
+        padding-bottom: 10px;
+    }
 }
 
 @media screen and (min-width: 992px) {
     section#login {
         width: 990px;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -32,5 +49,19 @@
     section#login > div#formulario {
         float: right;
         width: 45%;
+    }
+
+    div.campo {
+        padding-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 1em;
+        padding-bottom: 10px;
     }
 }
